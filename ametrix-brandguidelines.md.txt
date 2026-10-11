@@ -1,0 +1,784 @@
+
+# AMETRIX TECHNOLOGIES
+## Brand Guidelines & Company Profile
+
+**Version:** 1.0  
+**Brand:** Ametrix Technologies  
+**Industry:** Software Engineering & Technology Solutions  
+**Brand Style:** Modern · Technical · Trustworthy · Innovative
+
+---
+
+# PART 1 — BRAND GUIDELINES
+
+## 1. Brand Overview
+
+Ametrix Technologies is a technology brand built around
+precision, reliability, innovation, and thoughtful
+software engineering.
+
+Our visual identity combines two concepts:
+
+- **Gemstone:** Precision, quality, structure, and value.
+- **Database:** Data, engineering, technology, and scalability.
+
+Together, they represent technology built with
+purpose and attention to detail.
+
+### Brand Personality
+
+- Professional without being overly corporate
+- Innovative without being overly futuristic
+- Technical but approachable
+- Minimalist and recognizable
+- Confident, dependable, and modern
+
+### Brand Keywords
+
+Precision · Engineering · Innovation · Reliability ·
+Clarity · Scalability · Intelligence
+
+---
+
+## 2. Logo Identity
+
+### Primary Logo
+
+The Ametrix Technologies logo consists of:
+
+1. A geometric gem/database symbol.
+2. The lowercase wordmark `ametrix`.
+3. The secondary descriptor `technologies`.
+
+### Symbol Construction
+
+The symbol must preserve:
+
+- A six-sided geometric top surface.
+- Three stacked database-inspired sections.
+- Symmetrical left and right faces.
+- Consistent line thickness.
+- Clean geometric intersections.
+- Flat colors without gradients.
+- Recognizable structure at smaller sizes.
+
+The logo should never be redesigned as a generic
+cube, traditional database cylinder, or gemstone
+without its database structure.
+
+### Approved Logo Variations
+
+**Primary Horizontal**
+
+Symbol on the left, wordmark on the right.
+
+**Stacked**
+
+Symbol centered above the wordmark.
+
+**Symbol Only**
+
+Gem/database icon without accompanying text.
+
+**Monochrome**
+
+Entire logo rendered in one solid color.
+
+**Reversed**
+
+Light-colored logo on a dark background.
+
+### Logo Clear Space
+
+Maintain a minimum clear space around the logo
+equivalent to the height of the lowercase "a"
+in the wordmark.
+
+No text, decorative graphics, or other logos should
+enter this area.
+
+### Minimum Size Recommendations
+
+| Application | Minimum Width |
+|---|---|
+| Full logo, digital | 180 px |
+| Icon only, digital | 24 px |
+| Full logo, print | 40 mm |
+| Icon only, print | 8 mm |
+
+These are starting recommendations. Verify
+legibility using the final vector artwork.
+
+### Incorrect Logo Usage
+
+Do not:
+
+- Stretch or distort the logo.
+- Rotate the symbol independently.
+- Alter the number of database layers.
+- Change the six-sided top geometry.
+- Add shadows, bevels, or glow effects.
+- Apply gradients to the primary logo.
+- Use insufficient contrast.
+- Change the wordmark proportions.
+- Recreate the icon with inconsistent strokes.
+
+---
+
+## 3. Color System
+
+Ametrix uses two complementary visual themes.
+
+The light theme emphasizes clarity, precision,
+and technical professionalism.
+
+The dark theme emphasizes confidence, energy,
+and a subtle retro-technology influence.
+
+Both themes share a recognizable blue/cyan identity.
+
+### 3.1 Light Theme — Modern Blue
+
+| Role | Color | HEX |
+|---|---|---|
+| Background | Soft White | #F8FAFC |
+| Primary Text | Deep Navy | #0F2D5B |
+| Primary Accent | Electric Blue | #2497E8 |
+| Secondary Accent | Medium Blue | #459DCE |
+
+**Recommended Logo Combination**
+
+- Background: `#F8FAFC`
+- Gem/database icon: `#0F2D5B`
+- "ametrix": `#0F2D5B`
+- "technologies": `#2497E8`
+
+**Applications**
+
+- Corporate documents
+- Proposals and reports
+- Website light mode
+- Business cards
+- Presentation slides
+- Printed marketing materials
+
+### 3.2 Dark Theme — Midnight & Retro Orange
+
+| Role | Color | HEX |
+|---|---|---|
+| Background | Midnight Charcoal | #0E1117 |
+| Primary Accent | Electric Cyan | #22B8E6 |
+| Primary Text | Warm Cream | #FFEEDB |
+| Secondary Accent | Retro Orange | #FF8A52 |
+
+**Recommended Logo Combination**
+
+- Background: `#0E1117`
+- Gem/database icon: `#22B8E6`
+- "ametrix": `#FFEEDB`
+- "technologies": `#FF8A52`
+
+**Applications**
+
+- Website dark mode
+- Developer-focused materials
+- Technology presentations
+- Social media
+- Digital advertising
+- Event graphics
+
+### 3.3 Color Usage Rules
+
+- Use navy or charcoal as the primary structural color.
+- Use blue/cyan to establish brand recognition.
+- Reserve orange for selective emphasis.
+- Avoid introducing additional saturated colors.
+- Keep typography readable against its background.
+- Use solid color fills for the primary logo.
+
+### 3.4 Accessibility
+
+Aim for WCAG AA contrast:
+
+- 4.5:1 for standard body text.
+- 3:1 for large text and important UI graphics.
+
+Some brand accents may not meet these requirements
+on every background.
+
+Use deeper colors for small text on light backgrounds
+and lighter colors for small text on dark backgrounds.
+
+---
+
+## 4. Typography
+
+### Recommended Primary Typeface
+
+**Inter**
+
+Use for:
+
+- Website headings
+- Product interfaces
+- Marketing materials
+- Company presentations
+- Business documents
+
+Suggested weights:
+
+| Element | Weight |
+|---|---|
+| Main heading | 700 |
+| Section heading | 600 |
+| Subheading | 500 |
+| Body text | 400 |
+| Caption | 400 |
+
+### Alternative Typefaces
+
+- Manrope — modern and geometric
+- Plus Jakarta Sans — friendly and contemporary
+- IBM Plex Sans — technical and professional
+
+### Wordmark Guidance
+
+The existing `ametrix` wordmark should retain
+its bold lowercase appearance.
+
+The `technologies` descriptor should remain
+lighter and visually secondary.
+
+Do not replace the established wordmark typography
+without evaluating the entire logo system.
+
+---
+
+## 5. Visual Design Language
+
+### Geometry
+
+Favor:
+
+- Straight lines
+- Geometric forms
+- Symmetrical compositions
+- Consistent spacing
+- Clean iconography
+- Subtle corner rounding in interfaces
+
+### Backgrounds
+
+Approved:
+
+- Solid white
+- Soft white
+- Deep navy
+- Midnight charcoal
+- Solid brand accent colors
+
+Decorative technical grids may be used in
+supporting graphics, but not inside the master logo.
+
+### Effects
+
+The primary brand identity should remain flat.
+
+Avoid:
+
+- Gradients
+- Drop shadows
+- Metallic effects
+- 3D rendering
+- Neon glow
+- Excessive textures
+
+A retro aesthetic may be introduced through
+typography, composition, geometric patterns,
+and orange accents rather than visual effects.
+
+---
+
+## 6. Print Guidelines
+
+### Master Artwork
+
+Maintain a vector master in SVG, PDF, or EPS format.
+
+All icon geometry should be constructed using
+clean vector paths.
+
+### Printing Requirements
+
+- Use flat solid colors.
+- Convert colors to the printer's required profile.
+- Verify CMYK conversions with a printed proof.
+- Keep a monochrome logo available.
+- Avoid very thin lines at small sizes.
+- Outline fonts when required by the print vendor.
+- Maintain sufficient clear space.
+
+### Embroidery and Merchandise
+
+Use a simplified one-color version when necessary.
+
+Check that:
+
+- Internal openings remain visible.
+- Lines do not merge.
+- Small text remains readable.
+- Thread or ink colors maintain contrast.
+
+### Recommended Deliverables
+
+- Primary logo — SVG
+- Light theme logo — SVG
+- Dark theme logo — SVG
+- Black monochrome logo — SVG
+- White monochrome logo — SVG
+- Transparent PNG exports
+- Print-ready vector PDF
+
+**Important:** Raster logo previews are not
+substitutes for final production vector artwork.
+
+---
+
+## 7. Brand Voice
+
+### Communication Style
+
+Ametrix communicates with clarity, confidence,
+and technical credibility.
+
+We explain complex technology without unnecessary
+jargon or exaggerated promises.
+
+### Voice Characteristics
+
+**Clear**
+
+Communicate directly and precisely.
+
+**Professional**
+
+Demonstrate expertise without sounding impersonal.
+
+**Practical**
+
+Focus on solutions and meaningful outcomes.
+
+**Forward-Thinking**
+
+Show an understanding of evolving technologies.
+
+**Trustworthy**
+
+Make realistic, supportable claims.
+
+### Example Brand Messaging
+
+**Primary Headline**
+
+Engineering Better Technology.
+
+**Alternative Headlines**
+
+- Built with Precision.
+- Technology Designed with Purpose.
+- Smart Solutions. Solid Engineering.
+- Where Data Meets Innovation.
+- Modern Engineering. Meaningful Solutions.
+
+### Suggested Tagline
+
+**Built with Precision.**
+
+This tagline is proposed and has not been
+checked for trademark availability.
+
+---
+
+# PART 2 — COMPANY PROFILE
+
+> The following is proposed company positioning.
+> Services, capabilities, and claims should be
+> confirmed before public use.
+
+## 8. Company Overview
+
+### Ametrix Technologies
+
+**Custom Software Engineering & Technology Solutions**
+
+Ametrix Technologies is a software engineering
+and technology solutions company focused on
+designing and building reliable, scalable,
+and maintainable software systems.
+
+We aim to help organizations simplify complex
+technical challenges through thoughtful
+engineering, modern development practices,
+and practical technology solutions.
+
+Our approach emphasizes technical quality,
+clear communication, and long-term value.
+
+---
+
+## 9. Mission
+
+To help organizations solve meaningful challenges
+through precise engineering, innovative thinking,
+and dependable technology solutions.
+
+---
+
+## 10. Vision
+
+To become a trusted technology partner known
+for engineering excellence, practical innovation,
+and software solutions that create lasting value.
+
+---
+
+## 11. Core Values
+
+### Engineering Excellence
+
+Build systems with attention to quality,
+maintainability, and reliability.
+
+### Integrity
+
+Communicate transparently and make
+responsible technical decisions.
+
+### Innovation
+
+Explore new technologies when they provide
+meaningful value.
+
+### Collaboration
+
+Work closely with stakeholders to understand
+their needs and objectives.
+
+### Simplicity
+
+Prefer clear, effective solutions over
+unnecessary complexity.
+
+### Continuous Improvement
+
+Refine processes, skills, and systems
+through learning and iteration.
+
+---
+
+## 12. Proposed Services
+
+### Custom Software Development
+
+Design and development of software applications
+tailored to organizational requirements.
+
+Potential offerings:
+
+- Web applications
+- Internal business tools
+- Workflow automation
+- API development
+- System integrations
+- Application modernization
+
+### Database Engineering
+
+Design, optimization, and maintenance of
+data-driven systems.
+
+Potential offerings:
+
+- Relational database design
+- SQL development
+- Database performance optimization
+- Data integration
+- Reporting solutions
+- Data workflow automation
+
+### Cloud & Application Solutions
+
+Support for building and modernizing
+applications using cloud technologies.
+
+Potential offerings:
+
+- Cloud application architecture
+- Deployment automation
+- Infrastructure integration
+- Application hosting
+- System modernization
+
+### AI & Intelligent Automation
+
+Exploration and integration of AI-powered
+capabilities into business workflows.
+
+Potential offerings:
+
+- AI application integration
+- Intelligent document processing
+- Workflow automation
+- Data-driven application features
+- AI-assisted internal tools
+
+### Technical Consulting
+
+Engineering guidance for organizations
+evaluating or improving software systems.
+
+Potential offerings:
+
+- Architecture reviews
+- Technology evaluation
+- Technical planning
+- Performance improvement
+- System integration strategy
+
+---
+
+## 13. Proposed Technical Capabilities
+
+Depending on the final service portfolio,
+Ametrix may emphasize technologies such as:
+
+**Backend & Databases**
+
+SQL, PL/SQL, Oracle Database, REST APIs,
+and data integration.
+
+**Application Development**
+
+Python, JavaScript, web technologies,
+and custom business applications.
+
+**Low-Code Platforms**
+
+Oracle APEX and related enterprise
+application platforms.
+
+**Cloud & Delivery**
+
+Cloud infrastructure, deployment pipelines,
+and application integration.
+
+**Automation & AI**
+
+Process automation, API-based AI integration,
+and intelligent application workflows.
+
+Only publish technologies the company
+can actively support.
+
+---
+
+## 14. Our Approach
+
+### Discover
+
+Understand business requirements,
+technical constraints, and project goals.
+
+### Design
+
+Define an appropriate architecture
+and implementation strategy.
+
+### Develop
+
+Build solutions using maintainable
+engineering practices.
+
+### Validate
+
+Test functionality, performance,
+and reliability.
+
+### Deliver
+
+Deploy solutions with appropriate
+documentation and knowledge transfer.
+
+### Improve
+
+Support future enhancements and
+continuous optimization when agreed.
+
+---
+
+## 15. Why Ametrix?
+
+### Precision in Engineering
+
+A focus on structured, maintainable,
+and well-designed software.
+
+### Practical Innovation
+
+Technology choices guided by business
+value rather than trends alone.
+
+### Technical Versatility
+
+A proposed combination of software
+development, database engineering,
+automation, and integration expertise.
+
+### Long-Term Thinking
+
+Solutions designed with future maintenance,
+growth, and adaptability in mind.
+
+These are positioning statements, not
+verified claims about past performance.
+
+---
+
+## 16. Target Customers
+
+Potential customer segments include:
+
+- Small and midsize businesses
+- Organizations with custom software needs
+- Companies modernizing legacy systems
+- Data-intensive organizations
+- Teams seeking workflow automation
+- Businesses requiring technical consulting
+
+The final target market should reflect
+the company's actual commercial strategy.
+
+---
+
+## 17. Company Profile — Short Version
+
+Ametrix Technologies provides custom software
+engineering and technology solutions designed
+to help organizations solve complex challenges.
+
+With an emphasis on precision, reliability,
+and thoughtful innovation, Ametrix focuses
+on creating practical, scalable software
+that supports evolving business needs.
+
+---
+
+## 18. Company Profile — Website Version
+
+### Engineering Better Technology
+
+At Ametrix Technologies, we believe
+well-engineered software can simplify
+complex challenges and create meaningful
+business value.
+
+Our focus is on combining sound technical
+principles with modern technology to
+design practical, reliable solutions.
+
+From custom applications and database
+systems to automation and integration,
+our goal is to deliver technology
+that works with purpose.
+
+**Built with Precision.**
+
+---
+
+## 19. Contact Information
+
+**Company:** Ametrix Technologies
+
+**Website:** To be confirmed  
+**Email:** To be confirmed  
+**Location:** To be confirmed  
+**Phone:** To be confirmed
+
+Do not publish placeholder contact information.
+
+---
+
+# PART 3 — BRAND IMPLEMENTATION
+
+## 20. Website Recommendations
+
+### Light Mode
+
+- Background: `#F8FAFC`
+- Primary text: `#0F2D5B`
+- Accent: `#2497E8`
+- Supporting blue: `#459DCE`
+
+### Dark Mode
+
+- Background: `#0E1117`
+- Primary text: `#FFEEDB`
+- Icon/accent: `#22B8E6`
+- Highlight: `#FF8A52`
+
+### Interface Principles
+
+- Maintain consistent spacing.
+- Use clear visual hierarchy.
+- Avoid excessive decoration.
+- Ensure accessible contrast.
+- Use orange sparingly for emphasis.
+- Maintain consistent icon geometry.
+- Prefer solid backgrounds and simple components.
+
+---
+
+## 21. Brand Consistency Checklist
+
+Before publishing any branded material:
+
+- [ ] Correct Ametrix logo used
+- [ ] Six-sided gem/database geometry preserved
+- [ ] Approved colors applied
+- [ ] No gradients in the logo
+- [ ] Typography is consistent
+- [ ] Logo clear space maintained
+- [ ] Text contrast verified
+- [ ] Appropriate light/dark version selected
+- [ ] Print artwork uses vector paths
+- [ ] Company claims are accurate
+- [ ] Contact information is verified
+
+---
+
+## 22. Final Brand Direction
+
+Ametrix Technologies should maintain a visual
+identity that is:
+
+**Geometric. Precise. Modern. Technical.**
+
+The gem/database symbol serves as the central
+recognition element.
+
+The light blue theme establishes a clean,
+professional identity.
+
+The dark cyan-and-orange theme adds personality
+and a subtle retro-technology influence.
+
+Both themes should feel like one unified brand.
+
+---
+
+**Ametrix Technologies**  
+*Built with Precision.*
+
+Brand Guidelines & Company Profile — Version 1.0
+
+© Ametrix Technologies. All rights reserved.
