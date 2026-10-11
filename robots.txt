@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ametrixtech.com/sitemap.xml
+Sitemap: https://ametrix.tech/sitemap.xml
