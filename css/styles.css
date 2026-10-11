@@ -182,11 +182,26 @@ body.nav-open .nav-toggle .icon-menu { display: none; }
 .hero .lead { font-size: clamp(1.05rem, 1.4vw, 1.2rem); margin-bottom: 1.5rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .hero-figure { display: grid; place-items: center; }
-.hero-mark {
-  width: min(100%, 300px); height: auto; color: var(--logo-icon);
-  padding: 28px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg);
+/* A schematic of the work, rather than a repeated brand mark. */
+.system-diagram { width: 100%; max-width: 440px; padding: 24px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); }
+.system-heading { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 24px; color: var(--text-muted); font-size: 0.65rem; font-weight: 600; letter-spacing: 0.1em; }
+.system-heading span:last-child { white-space: nowrap; color: var(--accent-strong); }
+.system-layer { display: grid; grid-template-columns: 22px minmax(0, 1fr) 30px; gap: 12px; align-items: center; padding: 18px 14px; border: 1px solid var(--border); border-radius: var(--radius); }
+.system-number { font-size: 0.7rem; font-weight: 600; color: var(--accent-strong); }
+.system-layer h2 { font-size: 0.95rem; line-height: 1.35; letter-spacing: -0.02em; }
+.system-layer p { margin: 5px 0 0; font-size: 0.72rem; line-height: 1.6; color: var(--text-muted); }
+.system-layer svg { width: 30px; height: 30px; color: var(--accent-strong); }
+.system-layer-accent { background: var(--accent-soft); border-color: var(--accent); }
+.system-connector { display: flex; flex-direction: column; align-items: center; height: 36px; color: var(--accent-strong); }
+.system-connector span { width: 1px; flex: 1; background: var(--accent); }
+.system-connector b { font-size: 16px; line-height: 20px; font-weight: 400; }
+.system-caption { margin: 22px 0 0; padding-top: 16px; border-top: 1px solid var(--border); font-size: 0.75rem; color: var(--text-muted); }
+@media (max-width: 420px) {
+  .system-diagram { padding: 18px; }
+  .system-layer { padding: 14px 10px; gap: 8px; grid-template-columns: 18px minmax(0, 1fr) 24px; }
+  .system-layer svg { width: 24px; height: 24px; }
+  .system-heading { font-size: 0.6rem; }
 }
-.hero-figure .caption { margin-top: 14px; font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); text-align: center; }
 
 /* ---------- Hero proof row ---------- */
 .proof { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 1.6rem; }
@@ -283,8 +298,7 @@ html.js .reveal.in-view { opacity: 1; transform: none; }
 }
 @media (max-width: 860px) {
   .hero .container { grid-template-columns: 1fr; }
-  .hero-figure { order: -1; }
-  .hero-mark { width: min(60%, 220px); padding: 22px; }
+  .hero-figure { order: 0; }
   .about, .contact-panel { grid-template-columns: 1fr; }
   .steps { grid-template-columns: repeat(3, 1fr); }
 
