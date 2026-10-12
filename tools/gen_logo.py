@@ -7,7 +7,7 @@ Usage (from the repo root):
 
 Outputs assets/brand/logo-*.svg and tools/logo-symbol.html (the inline <symbol> used in index.html / 404.html).
 """
-import os, json
+import os, re, json
 import uharfbuzz as hb
 from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
@@ -27,6 +27,18 @@ ICON_PATHS = [
     "M15 76 L50 86 L85 76",
 ]
 ICON_W, ICON_H = 100, 112
+ICON_CX, ICON_CY = 50.0, 56.0   # geometric centre of the icon inside its 100x112 box
+ICON_SCALE = 0.93               # icon reduced 7% (refinement brief: 5-8%), scaled about its centre
+DESC_SCALE = 0.92               # "technologies" reduced 8% (brief: 5-10%) relative to the width-matched size
+
+
+def scaled_icon_paths(scale=ICON_SCALE):
+    """ICON_PATHS scaled about the icon centre; stroke width is left untouched so line weight is preserved."""
+    def repl(m):
+        x = ICON_CX + (float(m.group(1)) - ICON_CX) * scale
+        y = ICON_CY + (float(m.group(2)) - ICON_CY) * scale
+        return f"{x:g} {y:g}".replace("-0 ", "0 ")
+    return [re.sub(r"(-?\d+(?:\.\d+)?) (-?\d+(?:\.\d+)?)", repl, path) for path in ICON_PATHS]
 
 
 def shape(path, text, size, tracking_em=0.0):
@@ -72,7 +84,7 @@ def build(word_size=60.0, tracking_word=-0.015, tracking_desc=0.0, gap_text=7.0,
     tt1, g1, w1, s1 = shape(FONT_BOLD, "ametrix", word_size, tracking_word)
     # size "technologies" so its width matches the wordmark width (per the logo idea)
     _, g2p, w2p, _ = shape(FONT_MED, "technologies", 100.0, tracking_desc)
-    desc_size = 100.0 * w1 / w2p
+    desc_size = 100.0 * w1 / w2p * DESC_SCALE   # slightly narrower than "ametrix" for clearer hierarchy
     tt2, g2, w2, s2 = shape(FONT_MED, "technologies", desc_size, tracking_desc)
 
     # First pass at baseline 0 to measure bounds
@@ -89,7 +101,9 @@ def build(word_size=60.0, tracking_word=-0.015, tracking_desc=0.0, gap_text=7.0,
     y1 = top + h1_top
     y2 = y1 + gap_text + asc2
 
-    tx = ICON_W + icon_gap - b1[0]  # align left edge of ink with text origin
+    # Keep the optical gap between the icon's right edge and the wordmark unchanged after the icon shrinks.
+    icon_shrink = (ICON_CX - 15.0) * (1.0 - ICON_SCALE)
+    tx = ICON_W + icon_gap - icon_shrink - b1[0]  # align left edge of ink with text origin
     d1, bb1 = word_paths(tt1, g1, s1, tx, y1)
     d2, bb2 = word_paths(tt2, g2, s2, tx + (b1[0] - b2[0]), y2)  # align ink left edges
     right = max(bb1[2], bb2[2])
@@ -99,7 +113,7 @@ def build(word_size=60.0, tracking_word=-0.015, tracking_desc=0.0, gap_text=7.0,
 
 def icon_group(stroke, tx=0, ty=0):
     g = f'<g transform="translate({tx} {ty})" fill="none" stroke="{stroke}" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">'
-    g += "".join(f'<path d="{p}"/>' for p in ICON_PATHS) + "</g>"
+    g += "".join(f'<path d="{p}"/>' for p in scaled_icon_paths()) + "</g>"
     return g
 
 
