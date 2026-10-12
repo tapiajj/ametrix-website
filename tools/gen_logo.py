@@ -84,7 +84,7 @@ def build(word_size=60.0, tracking_word=-0.015, tracking_desc=0.0, gap_text=7.0,
     tt1, g1, w1, s1 = shape(FONT_BOLD, "ametrix", word_size, tracking_word)
     # size "technologies" so its width matches the wordmark width (per the logo idea)
     _, g2p, w2p, _ = shape(FONT_MED, "technologies", 100.0, tracking_desc)
-    desc_size = 100.0 * w1 / w2p * DESC_SCALE   # slightly narrower than "ametrix" for clearer hierarchy
+    desc_size = 100.0 * w1 / w2p * DESC_SCALE   # width-matched to "ametrix" (DESC_SCALE = 1.0)
     tt2, g2, w2, s2 = shape(FONT_MED, "technologies", desc_size, tracking_desc)
 
     # First pass at baseline 0 to measure bounds
