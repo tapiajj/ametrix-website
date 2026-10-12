@@ -29,7 +29,7 @@ ICON_PATHS = [
 ICON_W, ICON_H = 100, 112
 ICON_CX, ICON_CY = 50.0, 56.0   # geometric centre of the icon inside its 100x112 box
 ICON_SCALE = 0.93               # icon reduced 7% (refinement brief: 5-8%), scaled about its centre
-DESC_SCALE = 0.92               # "technologies" reduced 8% (brief: 5-10%) relative to the width-matched size
+DESC_SCALE = 1.0                # "technologies" is sized so its width matches "ametrix"
 
 
 def scaled_icon_paths(scale=ICON_SCALE):
