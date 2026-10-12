@@ -34,7 +34,6 @@ python -m http.server 8080
 
 ## Before launch
 
-- [ ] Confirm the public contact email (`hello@ametrix.tech` is used in `index.html` and must be verified).
 - [ ] Confirm the service list reflects what the company actively supports.
 - [ ] Add `assets/brand/og-image.png` (1200x630) for social sharing, or remove the `og:image` tag.
 - [ ] Review all company claims against the brand consistency checklist.
